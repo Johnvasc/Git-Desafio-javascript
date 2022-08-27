@@ -1,0 +1,57 @@
+body{
+    border: 0px;
+    margin: 0px;
+    background-color: blue;
+}
+.ss{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#central{
+    border-radius: 20px;
+    background-color: white;
+    width: 40%;
+    position: flex;
+    margin-top: 5rem;
+    
+}
+#placar{
+    position: absolute;
+    border-radius: 20px;
+    background-color: white;
+    margin-left: 70%;
+    width: 15%;
+    padding: 2px;
+    color: olive;
+    font-size: 18px;
+    text-align: center;
+}
+H1{
+    color: blue;
+    font-size: 36px;
+    text-align: center;
+}
+#valores{
+    display: none;
+    text-align: center;
+    color: blue;
+}
+.itemCheck{
+    padding: 20px;
+    font-size: large;
+    display: none;
+}
+.ButtonDiv{
+    padding-left: 40%;
+    padding-bottom: 10px;
+}
+button{
+    background-color: darkgray;
+    padding: 15px;
+    border: none;
+    font-size: large;
+}
+button:hover{
+    background-color: gray;
+}
