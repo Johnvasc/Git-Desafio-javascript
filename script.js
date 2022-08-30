@@ -36,6 +36,9 @@ function proxima(){
         totalQuestoes = totalQuestoes + 1;
         document.getElementById("placar").textContent = totalAcertos + "/" + 3*totalQuestoes;
         itemEscolhido = 0;
+        for(var j=0; j<4; j++){
+            document.getElementsByTagName("input")[j].checked = false;
+        }
         count++;
         if(count===obj.length) reinicializa();
         else plotaTexto(count);
